@@ -2,6 +2,8 @@ import { createBaratheonTree } from "./families/baratheon";
 import { createBritishSuccessionTree } from "./families/britain";
 import { createLannisterTree } from "./families/lannister";
 import { createStarkTree } from "./families/stark";
+import { generateNodeList } from "./solutions/generateNodeList";
+import { generateTreeFromNodeList } from "./solutions/generateTreeFromNodeList";
 // import { logAllPeopleInTree, logAllPeopleInTreeWithQueue } from "./solutions/solution";
 import { logAllPeopleInTree, logAllPeopleInTreeWithQueue } from "./treeLogging";
 import { printBanner } from "./utils/bannerUtils";
@@ -28,6 +30,9 @@ async function mainProgram() {
   // logAllPeopleInTreeWithQueue(createBritishSuccessionTree());
 
   // You'll need to add more test code for later exercises, too.
+
+  // console.log(generateNodeList(createBritishSuccessionTree()))
+  // console.log(JSON.stringify(generateTreeFromNodeList(generateNodeList(createBritishSuccessionTree())), null, 2));
 }
 
 mainProgram();

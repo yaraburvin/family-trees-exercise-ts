@@ -1,0 +1,26 @@
+import { Row } from './../rowTypes';
+export const britainAsRows: Row[] = [
+    { name: 'Queen Elizabeth II', id: 0, parentId: null },
+    { name: 'Anne', id: 4, parentId: 0 },
+    { name: 'Zara', id: 8, parentId: 4 },
+    { name: 'Lucas', id: 13, parentId: 8 },
+    { name: 'Lena', id: 12, parentId: 8 },
+    { name: 'Mia', id: 11, parentId: 8 },
+    { name: 'Peter', id: 7, parentId: 4 },
+    { name: 'Isla', id: 23, parentId: 7 },
+    { name: 'Savannah', id: 22, parentId: 7 },
+    { name: 'Edward', id: 3, parentId: 0 },
+    { name: 'Louise', id: 31, parentId: 3 },
+    { name: 'James', id: 30, parentId: 3 },
+    { name: 'Andrew', id: 2, parentId: 0 },
+    { name: 'Eugenie', id: 39, parentId: 2 },
+    { name: 'August', id: 42, parentId: 39 },
+    { name: 'Beatrice', id: 38, parentId: 2 },
+    { name: 'Charles', id: 1, parentId: 0 },
+    { name: 'Harry', id: 50, parentId: 1 },
+    { name: 'Archie', id: 53, parentId: 50 },
+    { name: 'William', id: 49, parentId: 1 },
+    { name: 'Louis', id: 60, parentId: 49 },
+    { name: 'Charlotte', id: 59, parentId: 49 },
+    { name: 'George', id: 58, parentId: 49 }
+]
