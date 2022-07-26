@@ -1,4 +1,5 @@
 import { Person } from "../personTypes";
+//import { logAllPeopleInTree } from "../treeLogging";
 
 export function createStarkTree(): Person {
 
@@ -20,3 +21,4 @@ export function createStarkTree(): Person {
     const topPerson : Person = {name : "Richard", children : richardKids }
     return topPerson;
 }
+
